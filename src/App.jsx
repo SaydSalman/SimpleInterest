@@ -58,7 +58,7 @@ function App() {
       if(!Principle || !Rate || !Year){
         alert("please fill the form completely")
       }else{
-        setInterest(Principle*Rate*Year)
+        setInterest(Principle*Rate*Year/100);
       }
     }
    
